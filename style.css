@@ -97,3 +97,47 @@ header {
     font-size: 1rem;
     cursor: pointer;
 }
+
+
+/* feature section  */
+.feature {
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 20px;
+    width: 70vw;
+    align-self: center;
+    margin-left: 28vh;
+}
+
+.fea-first p {
+    margin-top: 10px;
+}
+
+.fea-sec {
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+    /* margin-bottom: 10vh; */
+}
+
+.fea-sec .card {
+    /* border: 2px solid pink; */
+    height: 250px;
+    width: 300px;
+    padding: 20px;
+}
+
+.fea-sec .card img {
+    /* border: 2px solid orange; */
+    height: 70px;
+}
+.card h4 {
+    padding: 10px;
+}
+.fea-third img{
+    /* border: 2px solid aqua; */
+    width: 70vw;
+}
