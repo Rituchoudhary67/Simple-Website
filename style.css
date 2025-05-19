@@ -222,3 +222,19 @@ header {
     width: 100px;
     height: 30px;
 }
+
+/* content css */
+.content {
+    border: 2px solid red;
+    text-align: center;
+    padding: 50px;
+}
+
+.text-content {
+    border: 2px solid green;
+    padding: 20px;
+}
+.text-content h2,h4 {
+    font-weight: lighter;
+    margin: 10px;
+}
